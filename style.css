@@ -9,10 +9,16 @@ body {
 .bg-missan-about {
     background-color: rgba(92, 83, 3, 0.342);
     border-radius: 20px;
+    padding: 20px;
 }
 
-.bg-missan-about+.bg-missan-about {
-    margin-left: 20px;
+.mission-about-icons {
+    height: 125px;
+}
+
+.heading-mission-about {
+    color: rgb(165, 6, 6);
+    text-shadow: -3px 3px 5px rgb(36, 36, 9);
 }
 
 
