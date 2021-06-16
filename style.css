@@ -6,7 +6,17 @@ body {
     background-size: cover;
 }
 
-.header {
+.bg-missan-about {
+    background-color: rgba(92, 83, 3, 0.342);
+    border-radius: 20px;
+}
+
+.bg-missan-about+.bg-missan-about {
+    margin-left: 20px;
+}
+
+
+/* .header {
     display: flex;
     font-size: 2em;
     font-weight: bolder;
@@ -75,4 +85,4 @@ a:visited {
     background-color: rgba(75, 75, 75, 0.5);
     font-size: 1.5rem;
     padding: 1rem;
-}
+} */
