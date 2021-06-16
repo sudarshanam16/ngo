@@ -1,3 +1,7 @@
+<?php
+session_start(); 
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -30,7 +34,7 @@
                 <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="missanabout.html">About</a>
-                    <a class="nav-item nav-link active" href="recruit.html">Recruitments</a>
+                    <a class="nav-item nav-link active" href="recruit.php">Recruitments</a>
 
                 </div>
             </div>
@@ -39,13 +43,36 @@
 
     <div class="container text-center">
         <h1 class="heading">Upload your resume</h1>
-            <form action="file_upload.php" method="post" enctype="multipart/form-data" class="justify-content-center text-light"
-            style="display:flex; flex-wrap:wrap; width:min-content; margin: auto;">
-                Select file to upload:<br/><br/>
-                <input type="file" name="fileToUpload" id="fileToUpload"><br/><br/>
-                <input type="submit" value="Upload" name="submit">
-            </form>
+        <br/><div class="text-light">Your resume file must be in the PDF format only.</div><br/>
+        <form method="POST" action="file_upload.php" enctype="multipart/form-data" class="justify-content-center text-light"
+        style="display:flex; flex-wrap:wrap; width:min-content; margin: auto;">
+            <input type="file" name="fileToUpload" id="fileToUpload"><br/><br/>
+            <input type="submit" value="Upload" name="submit" disabled>
+        </form>
+        <br/>
+        <?php
+            if (isset($_SESSION['message']) && $_SESSION['message'])
+            {
+            printf('<div class="text-light">%s</div>', $_SESSION['message']);
+            unset($_SESSION['message']);
+            }
+        ?>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(
+            function(){
+                $('input:file').change(
+                    function(){
+                        if ($(this).val()) {
+                            $('input:submit').attr('disabled',false);
+                        } 
+                    }
+                    );
+            });
+    </script>
+    
 </body>
 
 </html>
