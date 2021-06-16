@@ -36,27 +36,15 @@
             </div>
         </nav>
     </div>
-    <!-- <div class="header">
-        <div><a href="index.html">&copy; MISSAN FOUNDATION</a></div>
-        <div class="nav">
-            <div><a href="about.html">About Us</a></div>
-            <div><a href="recruit.html">Recruitments</a></div>
-        </div>
-    </div> -->
 
-    <div class="row">
-        <h1>Upload your resume</h1>
-        <div class="about">
-
-
-            <form action="file_upload.php" method="post" enctype="multipart/form-data">
-                Select image to upload:
-                <input type="file" name="fileToUpload" id="fileToUpload">
+    <div class="container text-center">
+        <h1 class="heading">Upload your resume</h1>
+            <form action="file_upload.php" method="post" enctype="multipart/form-data" class="justify-content-center text-light"
+            style="display:flex; flex-wrap:wrap; width:min-content; margin: auto;">
+                Select file to upload:<br/><br/>
+                <input type="file" name="fileToUpload" id="fileToUpload"><br/><br/>
                 <input type="submit" value="Upload" name="submit">
             </form>
-
-
-        </div>
     </div>
 </body>
 
