@@ -19,21 +19,21 @@ session_start();
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-    <title>MISSAN FOUNDATION</title>
+    <title>Recruitments</title>
 
 </head>
 
 <body>
     <div class="mt-5">
         <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-transparent">
-            <a class="navbar-brand" href="index.html">MF</a>
+            <a class="navbar-brand" href="index.html">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="missanabout.html">About</a>
+                    <a class="nav-item nav-link " href="gakaayabout.html">Gakaay</a>
+                    <a class="nav-item nav-link " href="missanabout.html">Missan</a>
                     <a class="nav-item nav-link active" href="recruit.php">Recruitments</a>
 
                 </div>
