@@ -50,5 +50,5 @@ if ($uploadOk == 0) {
 }
 
 $_SESSION['message'] = $message;
-header("Location: recruit.php");
+header("Location: index.php#fup");
 ?>
