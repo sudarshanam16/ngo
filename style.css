@@ -46,6 +46,16 @@ input[type=file]::-webkit-file-upload-button, input[type=submit]{
 input:disabled{
     cursor: default;
 }
+.header{
+    margin: 5rem auto 0 auto;
+    font-size: 3rem;
+    background-color: rgba(92, 83, 3, 0.5);
+    padding: 1rem;
+    width: 98%;
+    color: rgb(255, 102, 102);
+    text-shadow: -3px 3px 3px rgb(90, 90, 7);
+    border-radius: 10px;
+}
 
 /* .header {
     display: flex;
