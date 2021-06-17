@@ -23,9 +23,9 @@ session_start();
 
 </head>
 
-<body>
+<body class="background-index">
     <div class="mt-5">
-        <nav class="fixed-top  navbar navbar-expand-lg navbar-light bg-transparent">
+        <nav class="fixed-top  navbar navbar-expand-lg navbar-light navbar-background-index">
             <a class="navbar-brand active" href="index.php">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@ session_start();
     </div>
 
     <div class="d-flex flex-column flex-md-row">
-        <div class="col-md-8 mb-4">
+        <div class="col-md-8">
             <div class="container text-center">
                 <h2 class="brand-before heading">
                     Welcome to
@@ -68,16 +68,15 @@ session_start();
             </div>
             <div class="container text-center">
                 <div class="heading"><h1>Links</h1></div><br/>
-                <a href="gakaayabout.html"><button><h2>Gakaay Solutions</h2></button></a><br/><br/>
-                <a href="missanabout.html"><button><h2>Missan Foundation</h2></button></a><br/><br/>
-                <a href="missanabout.html"><button><h2>Palasa Trainings</h2></button></a>
+                <a href="gakaayabout.html"><button><h4>Gakaay Solutions</h4></button></a><br/><br/>
+                <a href="missanabout.html"><button><h4>Missan Foundation</h4></button></a><br/><br/>
+                <a href="missanabout.html"><button><h4>Palasa Trainings</h4></button></a>
             </div>
             <div class="container text-center" id="fup">
                 <h1 class="heading">Upload your resume</h1>
                 <br/><div class="text-light">Your resume file must be in the PDF format only.</div><br/>
-                <form method="POST" action="file_upload.php" enctype="multipart/form-data" class="justify-content-center text-light"
-                style="display:flex; flex-wrap:wrap; width:min-content; margin: auto;">
-                    <input type="file" name="fileToUpload" id="fileToUpload"><br/><br/>
+                <form method="POST" action="file_upload.php" enctype="multipart/form-data" class="justify-content-center text-light">
+                    <input type="file" name="fileToUpload" id="fileToUpload" style="padding:0.3rem; width:15rem;"><br/><br/>
                     <input type="submit" value="Upload" name="submit" disabled>
                 </form>
                 <br/>
@@ -105,12 +104,12 @@ session_start();
             </script>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4">
             <div class="container sticky-top" style="top: 5rem;">
                 <div class="heading text-center"><h2>News</h2></div>
                 <div style=" height: 70vh; overflow: auto;">
                     <div class="about-info">
-                        Urgently required for Leading Insurance Sector.<br/>
+                        <i>Urgently required for Leading Insurance Sector.</i><br/>
                         Full time/ part time jobs.<br/>
                         <i>Gender:</i> Male/Female .<br/>
                         <i>Designation:</i> Financial Advisor and Agency Partner.<br/>
@@ -128,6 +127,10 @@ session_start();
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container text-center heading mb-4">
+        <div class="copy">&copy;Copyright GAKAAY SOLUTIONS 2021</div>
     </div>
 
     
