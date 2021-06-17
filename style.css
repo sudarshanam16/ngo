@@ -7,7 +7,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 
-.bg-missan-about {
+.about-info {
     background-color: rgba(182, 182, 182, 0.5);
     border-radius: 20px;
     padding: 20px;
@@ -15,7 +15,7 @@ body {
     font-size: 1.1rem;
 }
 
-.mission-about-icons {
+.about-icons {
     height: 125px;
 }
 
@@ -64,6 +64,21 @@ i{
     color: black;
     font-style: normal;
     font-weight: bold;
+}
+@media screen and (min-width:540px){
+        div::-webkit-scrollbar {
+        width: 7px;
+    }
+    div::-webkit-scrollbar-track {
+        background: transparent; 
+    }
+    div::-webkit-scrollbar-thumb {
+        background: rgba(85, 85, 85, 0.7);
+        border-radius:10px;
+    }
+    div::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.7);
+    }
 }
 
 /* .header {
