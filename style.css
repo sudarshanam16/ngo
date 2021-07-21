@@ -87,7 +87,7 @@ a {color: white !important;}
 }
 
 .copy{
-    font-size: 1.3rem; font-weight: bold;
+    font-weight: bold;
     color: rgb(255, 102, 102);
     text-shadow: -1px 1px 10px rgb(90, 90, 7);
 }
@@ -96,6 +96,10 @@ a {color: white !important;}
     font-size: 0.8rem; font-weight: bold;
     color: rgb(255, 102, 102);
     text-shadow: -1px 1px 10px rgb(90, 90, 7);
+}
+
+.footer{
+    font-size: 2.2rem;
 }
 
 .activities{
@@ -137,5 +141,11 @@ i {
     }
     .activities{
         width: 13rem;
+    }
+    .copy{
+        font-size: 1.3rem;
+    }
+    .footer{
+        font-size: 2.5rem;
     }
 }
