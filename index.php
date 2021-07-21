@@ -25,7 +25,7 @@ session_start();
 
 <body class="background-index">
     <div class="mt-5">
-        <nav class="fixed-top  navbar navbar-expand-lg navbar-light navbar-background-index">
+        <nav class="fixed-top navbar navbar-expand-lg navbar-light navbar-background-index">
             <a class="navbar-brand active" href="index.php">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -130,7 +130,13 @@ session_start();
     </div>
 
     <div class="container text-center mb-4">
-        <div class="copy">&copy;Copyright GAKAAY SOLUTIONS 2021</div>
+        <div class="copy">
+            &copy;Copyright GAKAAY SOLUTIONS 2021
+        </div>
+        <div class="design">
+            Designed, developed, and maintained at
+            <a href="https://github.com/sudarshanam16/ngo">ngo</a>.
+        </div>
     </div>
 
     
