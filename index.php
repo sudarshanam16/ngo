@@ -116,8 +116,7 @@ session_start();
                         <i>Eligibility:</i> Working Employees any Sector and any types of employment, House wife, Retired professionals, Business man,<br/>
                         <i>Qualification:</i> X/XII/Graduation in any discipline.<br/>
                         <i>Training Selection mode:</i> online zoom meeting.<br/>
-                        If anybody interested, kindly<br/>
-                        <i>Contact/Whatsapp:</i> 9500575550.<br/>
+                        If anybody interested, kindly contact us<br/>
                         <i>Location:</i> All over india and NRI .<br/>
                         <i>CTC per month:</i> 30k+Incentive.<br/>
                         Durairaj.<br/>
